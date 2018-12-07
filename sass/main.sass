@@ -1,9 +1,9 @@
 @import resources
 @import colors
+@import fonts
 
 div#mainContainer
     div.contentBlock
-        div.contentBlockIn
         div.block1
             background-color: $bgDark
             color: $textLight
@@ -22,5 +22,21 @@ div#mainContainer
                     float: right
                     img
                         width: 100%
-
-
+        div.block2
+            background-color: $bgLight
+            div.block1InBlock2
+                h4
+                    font-size: 30px
+                    color: $textDark
+                    line-height: 0.75
+                    margin-bottom: 25px
+                p
+                    font-size: $textFont
+                    color: $textDark2
+            div.block2InBlock2
+                div.videoContainer
+                    max-width: 430px
+                    max-height: 245px
+                    float: right
+                    img
+                        width: 100%

@@ -21,6 +21,7 @@ div#mainContainer div.contentBlock div.contentBlockIn {
   padding: 50px 35px;
 }
 
+/*text font */
 div#mainContainer div.contentBlock div.block1 {
   background-color: #445162;
   color: #ffffff;
@@ -42,5 +43,26 @@ div#mainContainer div.contentBlock div.block1 div.block2InBlock1 div.imgContaine
   float: right;
 }
 div#mainContainer div.contentBlock div.block1 div.block2InBlock1 div.imgContainer img {
+  width: 100%;
+}
+div#mainContainer div.contentBlock div.block2 {
+  background-color: #ffffff;
+}
+div#mainContainer div.contentBlock div.block2 div.block1InBlock2 h4 {
+  font-size: 30px;
+  color: #445161;
+  line-height: 0.75;
+  margin-bottom: 25px;
+}
+div#mainContainer div.contentBlock div.block2 div.block1InBlock2 p {
+  font-size: 16px;
+  color: #333333;
+}
+div#mainContainer div.contentBlock div.block2 div.block2InBlock2 div.videoContainer {
+  max-width: 430px;
+  max-height: 245px;
+  float: right;
+}
+div#mainContainer div.contentBlock div.block2 div.block2InBlock2 div.videoContainer img {
   width: 100%;
 }
