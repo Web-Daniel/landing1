@@ -201,3 +201,68 @@ div#mainContainer div.contentBlock div.block5 div.block1InBlock5 div.row div.med
   color: #989898;
   margin-bottom: 0;
 }
+div#mainContainer div.contentBlock div.block6 {
+  background-color: #ffffff;
+}
+div#mainContainer div.contentBlock div.block6 div.block1InBlock6 h4 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #445161;
+  text-align: center;
+  margin-bottom: 29px;
+}
+div#mainContainer div.contentBlock div.block6 div.block1InBlock6 div.row div.colomn {
+  background-color: #445162;
+  padding: 0;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+div#mainContainer div.contentBlock div.block6 div.block1InBlock6 div.row div.colomn:nth-child(2) {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+div#mainContainer div.contentBlock div.block6 div.block1InBlock6 div.row div.colomn h5 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #445161;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 0;
+}
+div#mainContainer div.contentBlock div.block6 div.block1InBlock6 div.row div.colomn div.price {
+  background-color: #ffffff;
+  text-align: center;
+  border: 2px solid #445162;
+  margin-bottom: 15px;
+}
+div#mainContainer div.contentBlock div.block6 div.block1InBlock6 div.row div.colomn div.price p {
+  line-height: 71px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #445161;
+  margin-bottom: 0;
+}
+div#mainContainer div.contentBlock div.block6 div.block1InBlock6 div.row div.colomn ol {
+  -webkit-padding-start: 35px;
+     -moz-padding-start: 35px;
+          padding-inline-start: 35px;
+  margin-bottom: 15px;
+}
+div#mainContainer div.contentBlock div.block6 div.block1InBlock6 div.row div.colomn ol li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+div#mainContainer div.contentBlock div.block6 div.block1InBlock6 div.row div.colomn button {
+  display: block;
+  width: calc(100% - 40px);
+  background-color: #ffffff;
+  color: #445161;
+  margin: 0 auto;
+}
