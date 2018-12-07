@@ -54,7 +54,7 @@ div#mainContainer div.contentBlock div.block2 {
 div#mainContainer div.contentBlock div.block2 div.block1InBlock2 h4 {
   font-size: 30px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 25px;
   color: #445161;
   margin-bottom: 25px;
 }
@@ -80,7 +80,7 @@ div#mainContainer div.contentBlock div.block3 {
 div#mainContainer div.contentBlock div.block3 div.block1InBlock3 h4 {
   font-size: 30px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 25px;
   color: #445161;
   margin-bottom: 25px;
   text-align: center;
@@ -104,10 +104,46 @@ div#mainContainer div.contentBlock div.block3 div.block1InBlock3 div.row div.med
   bottom: 0;
   left: 0;
 }
-div#mainContainer div.contentBlock div.block3 div.block1InBlock3 div.row div.media p {
+div#mainContainer div.contentBlock div.block3 div.block1InBlock3 div.row div.media div.media-body p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color: #333333;
   margin-bottom: 0;
+}
+div#mainContainer div.contentBlock div.block4 {
+  background-color: #ffffff;
+  padding-bottom: 20px;
+}
+div#mainContainer div.contentBlock div.block4 div.block1InBlock4 h4 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #445161;
+  text-align: center;
+  margin-bottom: 35px;
+}
+div#mainContainer div.contentBlock div.block4 div.block1InBlock4 div.row div.media {
+  margin-bottom: 30px;
+}
+div#mainContainer div.contentBlock div.block4 div.block1InBlock4 div.row div.media div.blockForImg4 {
+  max-width: 200px;
+  max-height: 150px;
+  margin-right: 15px;
+}
+div#mainContainer div.contentBlock div.block4 div.block1InBlock4 div.row div.media div.blockForImg4 img {
+  width: 100%;
+}
+div#mainContainer div.contentBlock div.block4 div.block1InBlock4 div.row div.media div.media-body h5 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #445161;
+  margin-bottom: 10px;
+}
+div#mainContainer div.contentBlock div.block4 div.block1InBlock4 div.row div.media div.media-body p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333;
 }

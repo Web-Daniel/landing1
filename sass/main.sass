@@ -64,7 +64,30 @@ div#mainContainer
                                 right: 0
                                 bottom: 0
                                 left: 0
-                        p
-                            @include paragraphMixin
-                            margin-bottom: 0
-                                
+                        div.media-body        
+                            p
+                                @include paragraphMixin
+                                margin-bottom: 0
+        div.block4
+            background-color: $bgLight
+            padding-bottom: 20px
+            div.block1InBlock4
+                h4
+                    @include headline4Mixin
+                    text-align: center
+                    margin-bottom: 35px
+                div.row
+                    div.media
+                        margin-bottom: 30px
+                        div.blockForImg4
+                            max-width: 200px
+                            max-height: 150px
+                            margin-right: 15px
+                            img
+                                width: 100%
+                        div.media-body
+                            h5
+                                @include headline5Mixin
+                                margin-bottom: 10px
+                            p
+                                @include paragraphMixin

@@ -1,6 +1,7 @@
 /*text font*/
 $textFont: 16px
 $textH4: 30px
+$textH5: 24px
 
 /*mixin*/
 @mixin paragraphMixin
@@ -12,5 +13,11 @@ $textH4: 30px
 @mixin headline4Mixin
     font-size: $textH4
     font-weight: 400
-    line-height: 36px
+    line-height: 25px
+    color: $textDark
+
+@mixin headline5Mixin
+    font-size: 24px
+    font-weight: 400
+    line-height: 18px
     color: $textDark
