@@ -15,6 +15,7 @@ div#mainContainer
                     margin-top: 50px
                     li
                         font-size: 20px
+                        font-weight: 400
             div.block2InBlock1
                 div.imgContainer
                     max-width: 469px
@@ -26,13 +27,11 @@ div#mainContainer
             background-color: $bgLight
             div.block1InBlock2
                 h4
-                    font-size: $textH4
-                    color: $textDark
-                    line-height: 0.75
+                    @include headline4Mixin
                     margin-bottom: 25px
                 p
-                    font-size: $textFont
-                    color: $textDark2
+                    @include paragraphMixin
+                    margin-bottom: 15px
             div.block2InBlock2
                 div.videoContainer
                     max-width: 430px
@@ -40,3 +39,32 @@ div#mainContainer
                     float: right
                     img
                         width: 100%
+        div.block3
+            background-color: $bgGrey
+            padding-bottom: 15px
+            div.block1InBlock3
+                h4
+                    @include headline4Mixin
+                    margin-bottom: 25px
+                    text-align: center
+                div.row
+                    div.media
+                        margin-bottom: 35px
+                        div.square
+                            width: 32px
+                            height: 32px
+                            background-color: $bgDark
+                            position: relative
+                            margin-top: 6px
+                            margin-right: 9px
+                            img
+                                position: absolute
+                                margin: auto
+                                top: 0
+                                right: 0
+                                bottom: 0
+                                left: 0
+                        p
+                            @include paragraphMixin
+                            margin-bottom: 0
+                                
