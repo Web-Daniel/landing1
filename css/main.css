@@ -371,6 +371,11 @@ div#mainContainer div.contentBlock div.block7 div.block1InBlock7 h4 {
     display: none;
   }
 }
+@media all and (max-width: 360px) {
+  div#mainContainer div.contentBlock div.block7 div.block2InBlock7 form div.form-group div.input-group input.form-control {
+    border-radius: 0.25rem;
+  }
+}
 div#mainContainer div.contentBlock div.block7 div.block2InBlock7 form div.form-group div.input-group textarea#messageTextarea {
   min-height: 170px;
 }
