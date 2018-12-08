@@ -121,6 +121,12 @@ div#mainContainer div.contentBlock div.block2Small div.block1InBlock2 div.videoC
   max-height: 245px;
   float: right;
 }
+@media all and (max-width: 767px) {
+  div#mainContainer div.contentBlock div.block2Small div.block1InBlock2 div.videoContainer {
+    float: none;
+    margin: 0 auto;
+  }
+}
 div#mainContainer div.contentBlock div.block2Small div.block1InBlock2 div.videoContainer img {
   width: 100%;
 }
